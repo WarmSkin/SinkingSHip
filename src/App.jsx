@@ -63,6 +63,14 @@ const App = () => {
     },
   ]
 
+  const carlosThings = [
+    {
+      name: "comics",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["reading"],
+    },
+  ]
+
   const codyThings = [
     {
       name: "energy drinks",
