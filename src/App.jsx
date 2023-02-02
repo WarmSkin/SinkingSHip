@@ -62,6 +62,15 @@ const App = () => {
     },
   ]
 
+  const codyThings = [
+    {
+      name: "energy drinks",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+    },
+  ]
+
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
