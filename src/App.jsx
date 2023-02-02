@@ -3,6 +3,7 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
+import nothing from './SinkingShip'
 
 const App = () => {
   const bensThings = [
@@ -70,6 +71,15 @@ const App = () => {
     },
   ]
 
+  const codyThings = [
+    {
+      name: "energy drinks",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+    },
+  ]
+
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
@@ -86,6 +96,7 @@ const App = () => {
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
       />
+      <Route path='/sinking-ship' element={nothing}/>
     </Routes>
   )
 }
